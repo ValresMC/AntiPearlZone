@@ -20,9 +20,11 @@ class playerListener implements Listener
         $config = $this->plugin->config();
 
         if($entity instanceof EnderPearl and $player instanceof Player){
-            if($this->isPealZone($player)){
-                $event->cancel();
-                $player->sendMessage($config->get("message"));
+            if(!$player->hasPermission("antipearl.bypass")){
+                if($this->isPealZone($player)){
+                    $event->cancel();
+                    $player->sendMessage($config->get("message"));
+                }
             }
         }
     }
