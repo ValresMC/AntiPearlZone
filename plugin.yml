@@ -3,3 +3,8 @@ author: Valres
 version: 1.2.0
 api: 5.0.0
 main: Valres\AntiPearlZone\Main
+
+permissions:
+  antipearl.bypass:
+    default: op
+    description: "Allow you to bypass antipearling."
