@@ -1,4 +1,4 @@
-# ChatAndMore
+# AntiPearlZone
   
 <p>(ENG) : Allows to prevent the throwing of enderpearls in certain areas and worlds ! </p>  
 <p>(FRA) : Permet d'empêcher le lancer d'enderpearl dans certaines zones et certains mondes ! </p>  
