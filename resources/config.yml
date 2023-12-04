@@ -1,0 +1,6 @@
+message : "§c>> Enderpearling not allow here !"
+
+zones:
+  world:
+    min: [0, 0, 0]
+    max: [50, 50, 50]
