@@ -1,4 +1,6 @@
+# Message when Enderpearl is throwing in restricted zone :
 message : "§c>> Enderpearling not allow here !"
+
 
 zones:
   world:
@@ -7,3 +9,9 @@ zones:
   world2:
     min: [20, 10, 20]
     max: [70, 30, 70]
+
+# Add zones as you want
+# WorldName :
+#  min: [x, y, z]
+#  max: [x, y, z]
+#
